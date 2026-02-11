@@ -1,7 +1,9 @@
+import {Products} from "@/pages/Products";
+
 const App = () => {
     return (
         <div>
-            
+            <Products/>
         </div>
     );
 };
