@@ -11,6 +11,7 @@ const SortBtn = (props: SortBtnProps) => {
     const {setNewSort} = props
 
     return (
+
         <div className={`flex gap-x-2`}>
             <Button onClick={()=> setNewSort(`name`)} className={`cursor-pointer`}>
                 <ArrowDownAZ/>

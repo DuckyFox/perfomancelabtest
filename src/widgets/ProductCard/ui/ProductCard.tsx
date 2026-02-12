@@ -1,5 +1,7 @@
 import type {IProductType} from "@/entities/ProductCard";
-import {AddToCartBtn} from "@/features/AddToCartBtn";
+import {Button} from "@/shared/ui";
+import {useAppDispatch} from "@/shared/hooks";
+import {addToCart} from "@/entities/SidebarCartSlice/model/sidebarCartSlice.ts";
 
 interface ProductCardWithActionsProps {
     productData: IProductType
@@ -8,6 +10,8 @@ interface ProductCardWithActionsProps {
 const ProductCard = (props:ProductCardWithActionsProps) => {
 
     const { productData } = props
+
+    const dispatch = useAppDispatch()
 
     return (
         <div className={`flex flex-col`}>
@@ -31,7 +35,12 @@ const ProductCard = (props:ProductCardWithActionsProps) => {
                 <h2 className="text-foreground text-xl font-bold">
                     {Math.floor(productData.price)} ₽
                 </h2>
-                <AddToCartBtn />
+                <Button
+                    className={`cursor-pointer`}
+                    onClick={() => dispatch(addToCart({amount: 1, product: productData}))}
+                >
+                    Добавить в корзину
+                </Button>
             </div>
         </div>
     );

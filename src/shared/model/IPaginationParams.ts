@@ -1,4 +1,4 @@
-import type {Category} from "@/features/CategoryFilter/model/CategoryModel.ts";
+import type {Category} from "@/features/CategoryFilter/types/CategoryModel.ts";
 
 export interface IFilterParams {
     page: number,
