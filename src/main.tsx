@@ -1,9 +1,10 @@
 import { createRoot } from 'react-dom/client'
 import {QueryClientProvider, QueryClient} from "@tanstack/react-query";
 import './app/styles/index.css'
-import App from './app/App.tsx'
 import {store} from "./app/store";
 import {Provider} from "react-redux";
+import {RouterProvider} from "react-router";
+import {router} from "@/app/router/router.tsx";
 
 const queryClient = new QueryClient({
     defaultOptions: {
@@ -16,7 +17,7 @@ const queryClient = new QueryClient({
 createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
         <Provider store={store}>
-            <App />
+            <RouterProvider router={router}/>
         </Provider>,
     </QueryClientProvider>
 )

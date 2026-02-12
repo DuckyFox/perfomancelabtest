@@ -1,9 +1,9 @@
-import {Products} from "@/pages/Products";
+import {Outlet} from "react-router";
 
 const App = () => {
     return (
         <div>
-            <Products/>
+            <Outlet/>
         </div>
     );
 };

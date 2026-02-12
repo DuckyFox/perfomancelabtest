@@ -1,4 +1,3 @@
-import React from "react";
 import type {IFilterParams} from "@/shared/model";
 import {
     Pagination,
@@ -12,34 +11,25 @@ import {
 
 interface PaginatorProps {
     paginationParams: IFilterParams,
-    setPaginationParams: React.Dispatch<React.SetStateAction<IFilterParams>>,
+    setNewPage: (newPage: number) => void,
     pagesAmount: number,
 }
 
 const Paginator = (props: PaginatorProps) => {
 
-    const {paginationParams, setPaginationParams, pagesAmount} = props
+    const {paginationParams, setNewPage, pagesAmount} = props
 
     function prevPageHandle(curPage: number) {
-        if (curPage > 1) setPaginationParams((prev)=> ({
-            ...prev,
-            page: curPage - 1
-        }))
+        if (curPage > 1) setNewPage(curPage - 1)
     }
 
     function nextPageHandle(curPage: number) {
         console.log(pagesAmount)
-        if (curPage < pagesAmount) setPaginationParams((prev)=> ({
-            ...prev,
-            page: curPage + 1
-        }))
+        if (curPage < pagesAmount) setNewPage(curPage + 1)
     }
 
     function pageClickHandle(newPage: number) {
-        setPaginationParams((prev)=> ({
-            ...prev,
-            page: newPage
-        }))
+        setNewPage(newPage)
     }
 
     return (
