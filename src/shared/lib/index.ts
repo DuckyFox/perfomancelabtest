@@ -1,5 +1,3 @@
-import {updateSearchParams} from "./updateSearchParams.ts";
+import { updateSearchParams } from "./updateSearchParams.ts";
 
-export {
-    updateSearchParams
-}
+export { updateSearchParams };

@@ -1,5 +1,3 @@
-import {Button} from "./button.tsx";
+import { Button } from "./button.tsx";
 
-export {
-    Button,
-}
+export { Button };

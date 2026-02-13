@@ -1,26 +1,30 @@
-import type {ICartItem} from "@/entities/SidebarCartSlice";
-import {useAppDispatch} from "@/shared/hooks";
+import {memo, useCallback} from "react";
+import type { ICartItem } from "@/entities/CartSlice";
+import { useAppDispatch } from "@/shared/hooks";
 import {
     decreaseAmountInCart,
     increaseAmountInCart,
-    removeFromCart
-} from "@/entities/SidebarCartSlice/model/sidebarCartSlice.ts";
-import {Button} from "@/shared/ui";
-import {Minus, Plus, Trash2} from "lucide-react";
+    removeFromCart,
+} from "@/entities/CartSlice/model/cartSlice.ts";
+import { Button } from "@/shared/ui";
+import { Minus, Plus, Trash2 } from "lucide-react";
 
-interface SidebarCartItemProps {
-    productInfo: ICartItem
+interface CartItemProps {
+    productInfo: ICartItem;
 }
 
-const SidebarCartItem = (props: SidebarCartItemProps) => {
+const CartItem = memo((props: CartItemProps) => {
+    const { productInfo } = props;
+    const dispatch = useAppDispatch();
+    const { amount, product } = productInfo;
 
-    const {productInfo} = props
-    const dispatch = useAppDispatch()
-    const {amount, product} = productInfo
+    const { id, name, price, image, category } = product;
 
-    const {id, name, price, image, category} = product
+    const totalPrice = price * amount;
 
-    const totalPrice = price * amount
+    const handleIncreaseAmountInCart = useCallback(() => {dispatch(increaseAmountInCart(id))}, [dispatch, id])
+    const handleDecreaseAmountInCart = useCallback(() => {dispatch(decreaseAmountInCart(id))}, [dispatch, id])
+    const handleRemoveFromCart = useCallback(() => {dispatch(removeFromCart(id))}, [dispatch, id])
 
     return (
         <div className={`flex gap-4 p-4 border-b border-border last:border-b-0`}>
@@ -39,7 +43,7 @@ const SidebarCartItem = (props: SidebarCartItemProps) => {
                         variant={`ghost`}
                         size={`icon`}
                         className={`h-8 w-8 flex-shrink-0`}
-                        onClick={() => dispatch(removeFromCart(id))}
+                        onClick={handleRemoveFromCart}
                     >
                         <Trash2 className={`h-4 w-4 text-destructive`} />
                     </Button>
@@ -51,7 +55,7 @@ const SidebarCartItem = (props: SidebarCartItemProps) => {
                             variant={`outline`}
                             size={`icon`}
                             className={`h-8 w-8`}
-                            onClick={() => dispatch(decreaseAmountInCart(id))}
+                            onClick={handleDecreaseAmountInCart}
                             disabled={amount <= 1}
                         >
                             <Minus className={`h-4 w-4`} />
@@ -61,7 +65,7 @@ const SidebarCartItem = (props: SidebarCartItemProps) => {
                             variant={`outline`}
                             size={`icon`}
                             className={`h-8 w-8`}
-                            onClick={() => dispatch(increaseAmountInCart(id))}
+                            onClick={handleIncreaseAmountInCart}
                         >
                             <Plus className={`h-4 w-4`} />
                         </Button>
@@ -76,6 +80,6 @@ const SidebarCartItem = (props: SidebarCartItemProps) => {
             </div>
         </div>
     );
-};
+});
 
-export default SidebarCartItem;
+export default CartItem;

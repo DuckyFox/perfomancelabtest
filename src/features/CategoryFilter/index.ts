@@ -1,5 +1,3 @@
 import CategoryFilter from "./ui/CategoryFilter.tsx";
 
-export {
-    CategoryFilter
-}
+export { CategoryFilter };

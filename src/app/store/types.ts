@@ -1,4 +1,4 @@
-import {store} from "./index.ts";
+import { store } from "./index.ts";
 
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;

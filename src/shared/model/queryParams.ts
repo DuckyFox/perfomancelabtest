@@ -1,1 +1,1 @@
-export type QueryParams = Record<string, string | number>
+export type QueryParams = Record<string, string | number>;

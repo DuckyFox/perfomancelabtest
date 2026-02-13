@@ -1,5 +1,3 @@
-import type {IProductType} from "@/entities/ProductCard/types/productCardTypes.ts";
+import type { IProductType } from "@/entities/ProductCard/types/productCardTypes.ts";
 
-export type {
-    IProductType
-}
+export type { IProductType };
