@@ -1,0 +1,1075 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Хлеб белый",
+      "category": "еда",
+      "price": 45.99,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=1",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Молоко 3.2%",
+      "category": "еда",
+      "price": 89.50,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=2",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Яйца куриные",
+      "category": "еда",
+      "price": 125.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=3",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Сыр Гауда",
+      "category": "еда",
+      "price": 350.75,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=4",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Йогурт греческий",
+      "category": "еда",
+      "price": 95.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=5",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Куриная грудка",
+      "category": "еда",
+      "price": 280.50,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=6",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Лосось свежий",
+      "category": "еда",
+      "price": 450.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=7",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Бананы",
+      "category": "еда",
+      "price": 120.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=8",
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Яблоки Гренни Смит",
+      "category": "еда",
+      "price": 150.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=9",
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Помидоры",
+      "category": "еда",
+      "price": 180.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=10",
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Огурцы",
+      "category": "еда",
+      "price": 90.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=11",
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Картофель",
+      "category": "еда",
+      "price": 65.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=12",
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Морковь",
+      "category": "еда",
+      "price": 75.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=13",
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "Лук репчатый",
+      "category": "еда",
+      "price": 55.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=14",
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "Чеснок",
+      "category": "еда",
+      "price": 200.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=15",
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Рис басмати",
+      "category": "еда",
+      "price": 180.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=16",
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "Макароны",
+      "category": "еда",
+      "price": 95.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=17",
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Оливковое масло",
+      "category": "еда",
+      "price": 450.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=18",
+      "inStock": true
+    },
+    {
+      "id": 19,
+      "name": "Сливочное масло",
+      "category": "еда",
+      "price": 220.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=19",
+      "inStock": true
+    },
+    {
+      "id": 20,
+      "name": "Творог",
+      "category": "еда",
+      "price": 150.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=20",
+      "inStock": true
+    },
+    {
+      "id": 21,
+      "name": "Сметана",
+      "category": "еда",
+      "price": 110.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=21",
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "name": "Кефир",
+      "category": "еда",
+      "price": 85.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=22",
+      "inStock": true
+    },
+    {
+      "id": 23,
+      "name": "Колбаса докторская",
+      "category": "еда",
+      "price": 320.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=23",
+      "inStock": true
+    },
+    {
+      "id": 24,
+      "name": "Сосиски",
+      "category": "еда",
+      "price": 250.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=24",
+      "inStock": true
+    },
+    {
+      "id": 25,
+      "name": "Пельмени",
+      "category": "еда",
+      "price": 280.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=25",
+      "inStock": true
+    },
+    {
+      "id": 26,
+      "name": "Пицца замороженная",
+      "category": "еда",
+      "price": 350.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=26",
+      "inStock": true
+    },
+    {
+      "id": 27,
+      "name": "Мороженое",
+      "category": "еда",
+      "price": 180.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=27",
+      "inStock": true
+    },
+    {
+      "id": 28,
+      "name": "Шоколад молочный",
+      "category": "еда",
+      "price": 120.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=28",
+      "inStock": true
+    },
+    {
+      "id": 29,
+      "name": "Печенье овсяное",
+      "category": "еда",
+      "price": 95.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=29",
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "name": "Чай черный",
+      "category": "еда",
+      "price": 150.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=30",
+      "inStock": true
+    },
+    {
+      "id": 31,
+      "name": "Кофе молотый",
+      "category": "еда",
+      "price": 450.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=31",
+      "inStock": true
+    },
+    {
+      "id": 32,
+      "name": "Сахар",
+      "category": "еда",
+      "price": 80.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=32",
+      "inStock": true
+    },
+    {
+      "id": 33,
+      "name": "Соль",
+      "category": "еда",
+      "price": 25.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=33",
+      "inStock": true
+    },
+    {
+      "id": 34,
+      "name": "Перец черный",
+      "category": "еда",
+      "price": 150.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=34",
+      "inStock": true
+    },
+    {
+      "id": 35,
+      "name": "Мука пшеничная",
+      "category": "еда",
+      "price": 70.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=35",
+      "inStock": true
+    },
+    {
+      "id": 36,
+      "name": "Дрожжи",
+      "category": "еда",
+      "price": 45.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=36",
+      "inStock": true
+    },
+    {
+      "id": 37,
+      "name": "Мед",
+      "category": "еда",
+      "price": 380.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=37",
+      "inStock": true
+    },
+    {
+      "id": 38,
+      "name": "Орехи грецкие",
+      "category": "еда",
+      "price": 450.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=38",
+      "inStock": true
+    },
+    {
+      "id": 39,
+      "name": "Изюм",
+      "category": "еда",
+      "price": 280.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=39",
+      "inStock": true
+    },
+    {
+      "id": 40,
+      "name": "Чернослив",
+      "category": "еда",
+      "price": 320.00,
+      "description": "Свежий продукт высокого качества",
+      "image": "https://picsum.photos/300/300?random=40",
+      "inStock": true
+    },
+    {
+      "id": 41,
+      "name": "Футболка хлопковая",
+      "category": "одежда",
+      "price": 1200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=41",
+      "inStock": true
+    },
+    {
+      "id": 42,
+      "name": "Джинсы классические",
+      "category": "одежда",
+      "price": 3500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=42",
+      "inStock": true
+    },
+    {
+      "id": 43,
+      "name": "Свитер шерстяной",
+      "category": "одежда",
+      "price": 2800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=43",
+      "inStock": true
+    },
+    {
+      "id": 44,
+      "name": "Куртка джинсовая",
+      "category": "одежда",
+      "price": 4200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=44",
+      "inStock": true
+    },
+    {
+      "id": 45,
+      "name": "Платье летнее",
+      "category": "одежда",
+      "price": 2500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=45",
+      "inStock": true
+    },
+    {
+      "id": 46,
+      "name": "Рубашка офисная",
+      "category": "одежда",
+      "price": 1800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=46",
+      "inStock": true
+    },
+    {
+      "id": 47,
+      "name": "Брюки классические",
+      "category": "одежда",
+      "price": 3200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=47",
+      "inStock": true
+    },
+    {
+      "id": 48,
+      "name": "Юбка миди",
+      "category": "одежда",
+      "price": 2200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=48",
+      "inStock": true
+    },
+    {
+      "id": 49,
+      "name": "Пиджак",
+      "category": "одежда",
+      "price": 4500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=49",
+      "inStock": true
+    },
+    {
+      "id": 50,
+      "name": "Пальто зимнее",
+      "category": "одежда",
+      "price": 6800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=50",
+      "inStock": true
+    },
+    {
+      "id": 51,
+      "name": "Шарф шерстяной",
+      "category": "одежда",
+      "price": 850.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=51",
+      "inStock": true
+    },
+    {
+      "id": 52,
+      "name": "Перчатки кожаные",
+      "category": "одежда",
+      "price": 1200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=52",
+      "inStock": true
+    },
+    {
+      "id": 53,
+      "name": "Шапка вязаная",
+      "category": "одежда",
+      "price": 750.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=53",
+      "inStock": true
+    },
+    {
+      "id": 54,
+      "name": "Носки хлопковые",
+      "category": "одежда",
+      "price": 350.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=54",
+      "inStock": true
+    },
+    {
+      "id": 55,
+      "name": "Трусы мужские",
+      "category": "одежда",
+      "price": 600.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=55",
+      "inStock": true
+    },
+    {
+      "id": 56,
+      "name": "Бюстгальтер",
+      "category": "одежда",
+      "price": 1500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=56",
+      "inStock": true
+    },
+    {
+      "id": 57,
+      "name": "Пижама",
+      "category": "одежда",
+      "price": 2200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=57",
+      "inStock": true
+    },
+    {
+      "id": 58,
+      "name": "Халат банный",
+      "category": "одежда",
+      "price": 1800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=58",
+      "inStock": true
+    },
+    {
+      "id": 59,
+      "name": "Кроссовки спортивные",
+      "category": "одежда",
+      "price": 4500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=59",
+      "inStock": true
+    },
+    {
+      "id": 60,
+      "name": "Туфли классические",
+      "category": "одежда",
+      "price": 5200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=60",
+      "inStock": true
+    },
+    {
+      "id": 61,
+      "name": "Сапоги зимние",
+      "category": "одежда",
+      "price": 5800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=61",
+      "inStock": true
+    },
+    {
+      "id": 62,
+      "name": "Ботинки",
+      "category": "одежда",
+      "price": 4200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=62",
+      "inStock": true
+    },
+    {
+      "id": 63,
+      "name": "Сандалии",
+      "category": "одежда",
+      "price": 2800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=63",
+      "inStock": true
+    },
+    {
+      "id": 64,
+      "name": "Сланцы",
+      "category": "одежда",
+      "price": 950.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=64",
+      "inStock": true
+    },
+    {
+      "id": 65,
+      "name": "Ремень кожаный",
+      "category": "одежда",
+      "price": 1500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=65",
+      "inStock": true
+    },
+    {
+      "id": 66,
+      "name": "Сумка женская",
+      "category": "одежда",
+      "price": 3500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=66",
+      "inStock": true
+    },
+    {
+      "id": 67,
+      "name": "Рюкзак",
+      "category": "одежда",
+      "price": 2800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=67",
+      "inStock": true
+    },
+    {
+      "id": 68,
+      "name": "Портфель",
+      "category": "одежда",
+      "price": 4200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=68",
+      "inStock": true
+    },
+    {
+      "id": 69,
+      "name": "Очки солнцезащитные",
+      "category": "одежда",
+      "price": 2500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=69",
+      "inStock": true
+    },
+    {
+      "id": 70,
+      "name": "Часы наручные",
+      "category": "одежда",
+      "price": 8500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=70",
+      "inStock": true
+    },
+    {
+      "id": 71,
+      "name": "Браслет",
+      "category": "одежда",
+      "price": 1200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=71",
+      "inStock": true
+    },
+    {
+      "id": 72,
+      "name": "Кольцо",
+      "category": "одежда",
+      "price": 3500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=72",
+      "inStock": true
+    },
+    {
+      "id": 73,
+      "name": "Серьги",
+      "category": "одежда",
+      "price": 2800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=73",
+      "inStock": true
+    },
+    {
+      "id": 74,
+      "name": "Цепочка золотая",
+      "category": "одежда",
+      "price": 12000.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=74",
+      "inStock": true
+    },
+    {
+      "id": 75,
+      "name": "Галстук",
+      "category": "одежда",
+      "price": 1500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=75",
+      "inStock": true
+    },
+    {
+      "id": 76,
+      "name": "Бабочка",
+      "category": "одежда",
+      "price": 1200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=76",
+      "inStock": true
+    },
+    {
+      "id": 77,
+      "name": "Жилет",
+      "category": "одежда",
+      "price": 2200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=77",
+      "inStock": true
+    },
+    {
+      "id": 78,
+      "name": "Кардиган",
+      "category": "одежда",
+      "price": 3200.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=78",
+      "inStock": true
+    },
+    {
+      "id": 79,
+      "name": "Леггинсы",
+      "category": "одежда",
+      "price": 1800.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=79",
+      "inStock": true
+    },
+    {
+      "id": 80,
+      "name": "Шорты",
+      "category": "одежда",
+      "price": 1500.00,
+      "description": "Стильная и качественная одежда",
+      "image": "https://picsum.photos/300/300?random=80",
+      "inStock": true
+    },
+    {
+      "id": 81,
+      "name": "Смартфон",
+      "category": "электроника",
+      "price": 45000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=81",
+      "inStock": true
+    },
+    {
+      "id": 82,
+      "name": "Планшет",
+      "category": "электроника",
+      "price": 25000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=82",
+      "inStock": true
+    },
+    {
+      "id": 83,
+      "name": "Ноутбук",
+      "category": "электроника",
+      "price": 65000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=83",
+      "inStock": true
+    },
+    {
+      "id": 84,
+      "name": "Наушники беспроводные",
+      "category": "электроника",
+      "price": 8500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=84",
+      "inStock": true
+    },
+    {
+      "id": 85,
+      "name": "Клавиатура механическая",
+      "category": "электроника",
+      "price": 6500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=85",
+      "inStock": true
+    },
+    {
+      "id": 86,
+      "name": "Мышь компьютерная",
+      "category": "электроника",
+      "price": 2500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=86",
+      "inStock": true
+    },
+    {
+      "id": 87,
+      "name": "Монитор 27 дюймов",
+      "category": "электроника",
+      "price": 18000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=87",
+      "inStock": true
+    },
+    {
+      "id": 88,
+      "name": "Принтер лазерный",
+      "category": "электроника",
+      "price": 12000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=88",
+      "inStock": true
+    },
+    {
+      "id": 89,
+      "name": "Сканер",
+      "category": "электроника",
+      "price": 8500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=89",
+      "inStock": true
+    },
+    {
+      "id": 90,
+      "name": "Веб-камера",
+      "category": "электроника",
+      "price": 4500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=90",
+      "inStock": true
+    },
+    {
+      "id": 91,
+      "name": "Микрофон",
+      "category": "электроника",
+      "price": 5500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=91",
+      "inStock": true
+    },
+    {
+      "id": 92,
+      "name": "Колонки Bluetooth",
+      "category": "электроника",
+      "price": 6500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=92",
+      "inStock": true
+    },
+    {
+      "id": 93,
+      "name": "Телевизор 55 дюймов",
+      "category": "электроника",
+      "price": 45000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=93",
+      "inStock": true
+    },
+    {
+      "id": 94,
+      "name": "Игровая консоль",
+      "category": "электроника",
+      "price": 35000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=94",
+      "inStock": true
+    },
+    {
+      "id": 95,
+      "name": "Роутер Wi-Fi",
+      "category": "электроника",
+      "price": 3500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=95",
+      "inStock": true
+    },
+    {
+      "id": 96,
+      "name": "Жесткий диск 1TB",
+      "category": "электроника",
+      "price": 4500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=96",
+      "inStock": true
+    },
+    {
+      "id": 97,
+      "name": "SSD накопитель",
+      "category": "электроника",
+      "price": 5500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=97",
+      "inStock": true
+    },
+    {
+      "id": 98,
+      "name": "Флешка 64GB",
+      "category": "электроника",
+      "price": 850.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=98",
+      "inStock": true
+    },
+    {
+      "id": 99,
+      "name": "Карта памяти",
+      "category": "электроника",
+      "price": 1200.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=99",
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "Зарядное устройство",
+      "category": "электроника",
+      "price": 1500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=100",
+      "inStock": true
+    },
+    {
+      "id": 101,
+      "name": "Powerbank",
+      "category": "электроника",
+      "price": 2500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=101",
+      "inStock": true
+    },
+    {
+      "id": 102,
+      "name": "Умные часы",
+      "category": "электроника",
+      "price": 15000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=102",
+      "inStock": true
+    },
+    {
+      "id": 103,
+      "name": "Фитнес-браслет",
+      "category": "электроника",
+      "price": 3500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=103",
+      "inStock": true
+    },
+    {
+      "id": 104,
+      "name": "Электронная книга",
+      "category": "электроника",
+      "price": 8500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=104",
+      "inStock": true
+    },
+    {
+      "id": 105,
+      "name": "Пылесос робот",
+      "category": "электроника",
+      "price": 25000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=105",
+      "inStock": true
+    },
+    {
+      "id": 106,
+      "name": "Умная колонка",
+      "category": "электроника",
+      "price": 8500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=106",
+      "inStock": true
+    },
+    {
+      "id": 107,
+      "name": "Умная лампочка",
+      "category": "электроника",
+      "price": 1500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=107",
+      "inStock": true
+    },
+    {
+      "id": 108,
+      "name": "Камера видеонаблюдения",
+      "category": "электроника",
+      "price": 5500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=108",
+      "inStock": true
+    },
+    {
+      "id": 109,
+      "name": "Дрон",
+      "category": "электроника",
+      "price": 35000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=109",
+      "inStock": true
+    },
+    {
+      "id": 110,
+      "name": "Электросамокат",
+      "category": "электроника",
+      "price": 25000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=110",
+      "inStock": true
+    },
+    {
+      "id": 111,
+      "name": "Электровелосипед",
+      "category": "электроника",
+      "price": 65000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=111",
+      "inStock": true
+    },
+    {
+      "id": 112,
+      "name": "Умный замок",
+      "category": "электроника",
+      "price": 12000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=112",
+      "inStock": true
+    },
+    {
+      "id": 113,
+      "name": "Умный термостат",
+      "category": "электроника",
+      "price": 8500.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=113",
+      "inStock": true
+    },
+    {
+      "id": 114,
+      "name": "Проектор",
+      "category": "электроника",
+      "price": 35000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=114",
+      "inStock": true
+    },
+    {
+      "id": 115,
+      "name": "Микроволновка",
+      "category": "электроника",
+      "price": 12000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=115",
+      "inStock": true
+    },
+    {
+      "id": 116,
+      "name": "Холодильник",
+      "category": "электроника",
+      "price": 45000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=116",
+      "inStock": true
+    },
+    {
+      "id": 117,
+      "name": "Стиральная машина",
+      "category": "электроника",
+      "price": 35000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=117",
+      "inStock": true
+    },
+    {
+      "id": 118,
+      "name": "Посудомоечная машина",
+      "category": "электроника",
+      "price": 40000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=118",
+      "inStock": true
+    },
+    {
+      "id": 119,
+      "name": "Кофемашина",
+      "category": "электроника",
+      "price": 25000.00,
+      "description": "Современная электроника с гарантией",
+      "image": "https://picsum.photos/300/300?random=119",
+      "inStock": true
+    }
+  ]
+}

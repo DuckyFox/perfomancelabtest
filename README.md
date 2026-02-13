@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+## Технологии
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **React 19** - UI библиотека
+- **TypeScript** - типизация
+- **Vite** - сборщик
+- **Redux Toolkit** - управление состоянием корзины
+- **TanStack Query (React Query)** - управление серверным состоянием и кэширование
+- **React Router** - маршрутизация
+- **Tailwind CSS** - стилизация
+- **shadcn/ui** - UI компоненты
+- **Axios** - HTTP клиент
+- **json-server** - моковый API
+## Функциональность
 
-Currently, two official plugins are available:
+- ✅ Каталог товаров с пагинацией
+- ✅ Фильтрация по категориям (еда, одежда, электроника)
+- ✅ Сортировка по названию (возрастание/убывание)
+- ✅ Поиск товаров (UI готов, функционал на бэкенде)
+- ✅ Корзина покупок с добавлением/удалением товаров
+- ✅ Изменение количества товаров в корзине
+- ✅ Сохранение фильтров и пагинации в URL (query params)
+- ✅ Мемоизация компонентов для оптимизации производительности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Архитектура
 
-## React Compiler
+src/<br>
+│<br>
+├── app/ Инициализация приложения<br>
+│ ├── router/ Конфигурация роутинга<br>
+│ ├── store/ Redux store<br>
+│ └── styles/ Глобальные стили<br>
+├── pages/ Страницы приложения<br>
+│ └── Products/ Страница каталога товаров<br>
+│<br>
+├── widgets/ Крупные составные блоки<br>
+│ ├── Cart/ Корзина покупок<br>
+│ ├── Filters/ Панель фильтров<br>
+│ ├── ProductCard/ Карточка товара<br>
+│ └── ProductsList/ Список товаров<br>
+│<br>
+├── features/ Бизнес-функции<br>
+│ ├── CategoryFilter/ Фильтр по категориям<br>
+│ ├── Paginator/ Пагинация<br>
+│ ├── ProductSearch/ Поиск товаров<br>
+│ └── SortBtn/ Кнопка сортировки<br>
+│
+├── entities/ Бизнес-сущности<br>
+│ ├── CartSlice/ Redux slice для корзины<br>
+│ └── ProductCard/ Типы и модели товара<br>
+│<br>
+└── shared/ Переиспользуемый код<br>
+├── api/ API клиент<br>
+├── hooks/ Кастомные хуки<br>
+├── lib/ Утилиты<br>
+├── model/ Общие типы<br>
+└── ui/ UI компоненты (shadcn/ui)<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Настройка переменных окружения
+Создайте файл .env.local в корне проекта:  
+VITE_API_URL = **Адрес хоста сервера (прим http://localhost:8080)**
 
-## Expanding the ESLint configuration
+## Запуск проекта
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ 
+1. Запустите моковый API сервер:  **npm run json-server**
+2. Запустите dev сервер: **npm run dev**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Доступные скрипты
+-   npm run dev - запуск dev сервера
+-   npm run build - сборка для продакшена
+-   npm run preview - предпросмотр продакшен сборки
+-   npm run lint - проверка кода ESLint
+-   npm run format - форматирование кода Prettier
+-  npm run format:check - проверка форматирования
+-  npm run json-server - запуск мокового API сервера
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## API
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Endpoints
+- GET /products - получение списка товаров
+### Query параметры
+- _page - номер страницы
+-  _per_page - количество товаров на странице
+- category - фильтр по категории
+- price_gte - минимальная цена
+- price_lte - максимальная цена
+- _sort - сортировка (например, name или -name)
+### Пример запроса:
+#### GET /products?_page=1&_per_page=20&category=еда&_sort=name
